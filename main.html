@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizador de PDF</title>
+    <link href="libreria.css" rel="stylesheet">
+</head>
+<body>
+    
+    <div id="main"></div>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>-->
+    <script src="pdf.min.js"></script>
+    <script src="libreria.js"></script>
+    <script>
+        
+        const pdf = new visualizadorPDF("cocina_espanola.pdf","oscuro")
+        pdf.MostrarPDF("main",30)
+        
+    </script>
+
+</body>
+</html>

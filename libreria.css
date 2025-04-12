@@ -1,0 +1,105 @@
+    .visualizador{
+    display: flex; /* Usamos Flexbox */
+    flex-direction: column; 
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+    border: 1px solid #ccc; /* Opcional, para visualizar los límites del div */
+    }
+
+    .visualizador > #formPaginas{
+        
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    .visualizadorDark{
+        display: flex; /* Usamos Flexbox */
+        flex-direction: column; 
+        justify-content: center; /* Centrado horizontal */
+        align-items: center; /* Centrado vertical */
+        border: 1px solid #ccc; /* Opcional, para visualizar los límites del div */
+        background-color: #333;
+        }
+    
+    .visualizadorDark > #formPaginas{
+            
+            margin-bottom: 10px;
+            margin-top: 20px;
+        }
+
+    #formPaginas {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(135deg, #3b5998, #192f6a); /* Fondo degradado elegante */
+        color: #fff;
+        border: 2px solid #3b5998;
+        border-radius: 15px;
+        padding: 10px 20px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Sombra para un efecto flotante */
+        font-family: 'Arial', sans-serif;
+        font-size: 1.2em;
+    }
+
+    #formPaginas span {
+        margin: 0 5px;
+    }
+
+    #formPaginas input {
+        width: 50px;
+        padding: 5px;
+        margin-left: 5px;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 1em;
+        color: #3b5998;
+        background: #fff;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    #botonera{
+        margin-bottom: 20px;
+    }
+
+    #botonera button {
+        background-color: #0078D7; /* Azul similar al de los lectores modernos */
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 8px; /* Bordes redondeados */
+        cursor: pointer;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+        transition: all 0.3s ease; /* Transición para efectos de hover */
+        margin-left: 5px;
+    }
+    
+    #botonera button:hover {
+        background-color: #005A9E; /* Color más oscuro al pasar el cursor */
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Sombra más profunda */
+        transform: scale(1.05); /* Efecto de aumento al hacer hover */
+    }
+    
+    #botonera button:active {
+        background-color: #004377; /* Color aún más oscuro al hacer clic */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra más ligera */
+        transform: scale(0.95); /* Efecto de reducción al hacer clic */
+    }
+    
+
+    /* Estilo para el contenedor del texto */
+    #pTexto {
+        font-family: "Arial", sans-serif; /* Fuente moderna */
+        font-size: 14px; /* Tamaño del texto */
+        line-height: 1.6; /* Altura de línea */
+        color: #333; /* Texto gris oscuro */
+        padding: 10px; /* Relleno */
+        background-color: #f9f9f9; /* Fondo claro */
+        border: 1px solid #ddd; /* Borde sutil */
+        border-radius: 5px; /* Bordes redondeados */
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+        margin-top: 10px; /* Separación superior */
+        display: none; /* Oculto por defecto */
+    }
